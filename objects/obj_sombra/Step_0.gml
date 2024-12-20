@@ -30,6 +30,7 @@ switch(estado)
 	#region idle 
 	case "idle":
 	{
+		mid_velh = 0;
 		velh = 0;
 		timer_estado++;
 		if (sprite_index != spr_sombra_idle)
@@ -71,11 +72,9 @@ switch(estado)
 		}
 		sprite_index = spr_sombra_walk;
 		
-		if (place_meeting(x, y, obj_collisionledge))
+		if (place_meeting(x + velh, y, obj_collisionledge))
 		{
-		    xscale *= -1;
-		    velh = -velh;  
-			x += velh;
+		    velh *= -1;
 		}
 		
 		//CONDIÇÃO DE SAIR DO ESTADO

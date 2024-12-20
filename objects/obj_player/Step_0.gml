@@ -33,6 +33,8 @@ switch(estado)
 	#region idle
 	case "idle":
 	{
+		//MID_VELH PARADO
+		mid_velh = 0;
 		//COMPORTAMENTO DO ESTADO
 		sprite_index = spr_player_idle01;
 		
@@ -161,6 +163,15 @@ switch(estado)
 		var wall = place_meeting(x + sign(velh), y, obj_block);
 		if (wall)
 		{
+			//WALL JUMP
+			if (jump)
+			{	
+				//PRA CIMA
+				velv = -max_velv;
+				
+				//DIREITA
+				mid_velh = (max_velh * 2) * sign(velh) * -1;	
+			}
 			sprite_index = spr_player_wall;
 			
 			if (velv > 1)
@@ -175,6 +186,9 @@ switch(estado)
 		else
 		{	
 			aplica_gravidade();
+			
+			//DIMINUI O VALOR DE MID_VELH
+			mid_velh = lerp(mid_velh, 0, 0.05);
 		}
 		break;
 	}
