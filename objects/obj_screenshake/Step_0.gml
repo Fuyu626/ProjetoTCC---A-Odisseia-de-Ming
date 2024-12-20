@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//TREMENDO
 
+//TREMENDO
 view_xport[0] = random_range(-shake, shake);
 view_yport[0] = random_range(-shake, shake);
 
@@ -14,3 +14,4 @@ if (shake <= .2)
 {
 	instance_destroy();	
 }
+

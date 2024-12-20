@@ -15,21 +15,6 @@ dash = keyboard_check_pressed(vk_shift);
 if (ataque_buff > 0) ataque_buff -= 0.1;
 
 
-//GRAVIDADE//
-if (!chao)
-{
-	if (velv < max_velv * 2)
-	{
-		velv += GRAVIDADE * massa * global.vel_mult;	
-	}
-}
-
-//REINICIAR OS PULOS
-if (chao)
-{
-    jump_present = jump_max;
-	double_jump_timer = 0;
-}
 
 //MOVIMENTAÇÃO//
 velh = (right - left) * max_velh * global.vel_mult;
@@ -41,11 +26,6 @@ if (right && left)
 	estado = "idle";
 }
 
-//TEMPORIZADOR DE PULO
-if (double_jump_timer > 0)
-{
-    double_jump_timer--; 
-}
 
 //INICIANDO A MÁQUINA DE ESTADOS
 switch(estado)
@@ -73,17 +53,13 @@ switch(estado)
 		{
 			estado = "up";	
 		}
-		else if (jump || velv != 0 && jump_present > 0)
+		else if (jump || !chao)
 		{	
 			estado = "jumping";
 			velv = (-max_velv * jump);
-			jump_present -= 1;
 			image_index = 0;
-			//INICIALIZANDO O CONTADOR DE TEMPO DE PULO
-	        if (jump_present == 1)
-	        {
-				double_jump_timer = double_jump_delay; 
-	        }
+
+	 
 		}
 		else if (attack)
 		{
@@ -134,7 +110,7 @@ switch(estado)
 			estado = "idle";
 			velh = 0;
 		}
-		else if (jump || velv != 0)
+		else if (jump || !chao)
 		{
 			estado = "jumping";
 			velv = (-max_velv * jump);
@@ -174,14 +150,6 @@ switch(estado)
 			}
 		}
 		
-		//DOUBLE JUMP
-	    if (jump && jump_present > 0 && double_jump_timer <= 0)
-	    {
-	        velv = -max_velv;
-	        jump_present -= 1;
-	        estado = "doubleJump";
-	        image_index = 0;
-	    }
 		//CONDIÇÃO DE TROCA DE ESTADO
 		if (chao)
 		{
@@ -189,24 +157,30 @@ switch(estado)
 			velh = 0;
 		}
 		
+		//WALL SLIDE
+		var wall = place_meeting(x + sign(velh), y, obj_block);
+		if (wall)
+		{
+			sprite_index = spr_player_wall;
+			
+			if (velv > 1)
+			{
+				velv = 1;
+			}
+			else
+			{
+				aplica_gravidade();	
+			}
+		}
+		else
+		{	
+			aplica_gravidade();
+		}
 		break;
 	}
 	#endregion
 	
-	
-	#region doublejump
-	case "doubleJump":
-	{
-	    velh *= 0.9;  
-    
-	    if (chao) 
-	    {
-	        estado = "idle";
-	        velh = 0;
-	    }
-	    break;
-	}
-	#endregion
+
 	
 	
 	#region ataque

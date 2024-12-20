@@ -20,13 +20,15 @@ enum menus_lista
 }
 
 //SCREENSHAKE
-//@function screenshake(valor_da_tremida)
-//@arg força_da_tremida
-
+///@function screenshake(valor_da_tremida)
+///@arg força_da_tremida
+///@arg [dir_mode]
+///@arg [direcao]
 function screenshake(_treme)
 {
 	var shake = instance_create_layer(0, 0, "instances", obj_screenshake);
 	shake.shake = _treme;
+
 }
 
 //DEFINIÇÃO ALIGN

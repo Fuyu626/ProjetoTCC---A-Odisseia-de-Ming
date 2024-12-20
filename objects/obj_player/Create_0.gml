@@ -19,12 +19,12 @@ healthbar_width = 500;
 healthbar_height = 48;
 
 health_x = (730/2) - (healthbar_width/2);
-health_y = ystart - 571;
+health_y = 38;
 
 dash_vel = 4;
 
 max_velh = 4;
-max_velv = 4.7;
+max_velv = 6;
 
 mostra_estado = true;
 
@@ -35,8 +35,15 @@ posso = true;
 ataque_mult = 1;
 ataque_buff = room_speed;
 
-jump_max = 2;
-jump_present = jump_max;
-double_jump_timer = 0; 
-double_jump_delay = 15;
-
+//GRAVIDADE
+aplica_gravidade = function()
+{
+	var chao = place_meeting(x, y + 1, obj_block);
+	if (!chao)
+	{
+		if (velv < max_velv * 2)
+		{
+				velv += GRAVIDADE * massa * global.vel_mult;	
+		}
+	}	
+}

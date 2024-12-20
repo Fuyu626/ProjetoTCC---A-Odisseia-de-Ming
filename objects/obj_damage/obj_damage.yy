@@ -36,5 +36,5 @@
     "path":"sprites/spr_damage/spr_damage.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
