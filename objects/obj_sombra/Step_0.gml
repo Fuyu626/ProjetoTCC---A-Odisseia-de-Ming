@@ -72,7 +72,8 @@ switch(estado)
 		}
 		sprite_index = spr_sombra_walk;
 		
-		if (place_meeting(x + velh, y, obj_collisionledge))
+		//BATE E VOLTA
+		if (place_meeting(x + velh, y, obj_collisionledge && obj_block))
 		{
 		    velh *= -1;
 		}
