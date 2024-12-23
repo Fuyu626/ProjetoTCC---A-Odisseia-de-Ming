@@ -38,13 +38,13 @@ draw_menu = function(_menu)
 	//DESENHANDO O MENU	
 	for (var i = 0; i < _qtd; i++)
 	{
-		var _cor = c_white, _marg_x = 0;
+		var _cor = c_black, _marg_x = 0;
 		var _texto = _menu[i][0];	
 	
 		//CHECK DA SELAÇÃO
 		if (menus_sel[pag] == i)
 		{
-			_cor = c_purple;	
+			_cor = c_white;	
 			_marg_x = marg_val;
 		}
 		draw_text_color(600 + _marg_x, (_alt / 2) - _alt_menu / 2 + (i * _espaco_y), _texto, _cor, _cor, _cor, _cor, 1);

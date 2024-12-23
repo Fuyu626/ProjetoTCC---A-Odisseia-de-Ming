@@ -88,6 +88,7 @@
     {"name":"spr_sombra_hit","order":1,"path":"sprites/spr_sombra_hit/spr_sombra_hit.yy",},
     {"name":"spr_sombra_walk","order":3,"path":"sprites/spr_sombra_walk/spr_sombra_walk.yy",},
     {"name":"spr_spike","order":3,"path":"sprites/spr_spike/spr_spike.yy",},
+    {"name":"spr_title_menu","order":1,"path":"sprites/spr_title_menu/spr_title_menu.yy",},
     {"name":"tl_tile02","order":1,"path":"tilesets/tl_tile02/tl_tile02.yy",},
   ],
 }
