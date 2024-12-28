@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 var chao = place_meeting(x, y + 1, obj_block);
-var parede = place_meeting(x, y, obj_collisionledge);
+
 
 //SURGIR DO CHÃO
 if (point_distance(x, y, obj_player.x, obj_player.y) <= detection_range) 
@@ -20,6 +20,7 @@ if (!chao)
 {
 	velv += GRAVIDADE * massa * global.vel_mult;	
 }
+
 
 
 switch(estado)
@@ -71,7 +72,7 @@ switch(estado)
 		sprite_index = spr_sombra_walk;
 		
 		//BATE E VOLTA
-		if (place_meeting(x + velh, y, obj_collisionledge && obj_block))
+		if (place_meeting(x + velh, y, obj_block))
 		{
 		    velh *= -1;
 		}
