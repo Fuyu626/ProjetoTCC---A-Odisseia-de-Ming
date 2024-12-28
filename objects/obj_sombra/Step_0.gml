@@ -2,7 +2,9 @@
 // You can write your code in this editor
 
 var chao = place_meeting(x, y + 1, obj_block);
+var parede = place_meeting(x, y, obj_collisionledge);
 
+//SURGIR DO CHÃO
 if (point_distance(x, y, obj_player.x, obj_player.y) <= detection_range) 
 {
 	if (image_yscale<1)
@@ -19,10 +21,6 @@ if (!chao)
 	velv += GRAVIDADE * massa * global.vel_mult;	
 }
 
-if (mouse_check_button_pressed(mb_right))
-{
-	estado = "attack";	
-}
 
 switch(estado)
 {
