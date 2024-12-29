@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (room = Room1 && aura)
+if (room = Room2 && aura)
 {
 	draw_set_font(fnt_castlevania);
 	draw_set_color(c_aqua);	

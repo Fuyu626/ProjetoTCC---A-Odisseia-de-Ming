@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_sensor",
+  "%Name":"obj_door",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_sensor",
+  "name":"obj_door",
   "overriddenProperties":[],
   "parent":{
     "name":"Game System",
@@ -26,9 +26,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"","%Name":"destino","filters":[
-        "GMRoom",
-      ],"listItems":[],"multiselect":false,"name":"destino","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":5,},
+    {"$GMObjectProperty":"","%Name":"destino","filters":[],"listItems":[],"multiselect":false,"name":"destino","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":5,},
     {"$GMObjectProperty":"","%Name":"destino_x","filters":[],"listItems":[],"multiselect":false,"name":"destino_x","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"","%Name":"destino_y","filters":[],"listItems":[],"multiselect":false,"name":"destino_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
@@ -36,12 +34,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_sensor",
-    "path":"sprites/spr_sensor/spr_sensor.yy",
+    "name":"spr_door",
+    "path":"sprites/spr_door/spr_door.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_sensor",
-    "path":"sprites/spr_sensor/spr_sensor.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

@@ -44,10 +44,10 @@ draw_menu = function(_menu)
 		//CHECK DA SELAÇÃO
 		if (menus_sel[pag] == i)
 		{
-			_cor = c_white;	
+			_cor = (make_color_rgb(246, 238, 227));
 			_marg_x = marg_val;
 		}
-		draw_text_color(600 + _marg_x, (_alt / 2) - _alt_menu / 2 + (i * _espaco_y), _texto, _cor, _cor, _cor, _cor, 1);
+		draw_text_color(600 + _marg_x, (_alt / 2) - _alt_menu / 3 + (i * _espaco_y), _texto, _cor, _cor, _cor, _cor, 1);
 	}
 	
 	//OUTRO LADO DO MENU
@@ -170,7 +170,7 @@ control_menu = function(_menu)
 
 inicia_jogo = function()
 {
-	room_goto(Room1);
+	room_goto(Room0);
 }
 
 fecha_jogo = function()

@@ -106,7 +106,6 @@ switch(estado)
 		
 
 		//CONDIÇÃO DE TROCA DE ESTADO
-		//idle
 		if (abs(velh) < .1)
 		{
 			estado = "idle";
