@@ -97,12 +97,12 @@ control_menu = function(_menu)
 	
 	static _animar = false;
 
-	_up = keyboard_check_pressed(vk_up);
-	_down = keyboard_check_pressed(vk_down);
+	_up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"));
+	_down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"));
 	_avanca = keyboard_check_released(vk_enter);
 	_recua = keyboard_check_released(vk_escape);
-	_left = keyboard_check_pressed(vk_left);
-	_right = keyboard_check_pressed(vk_right);
+	_left = keyboard_check_pressed(vk_left) || keyboard_check_pressed(ord("A"));
+	_right = keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord("D"));
 
 	if (!alterando)
 	{	
@@ -181,11 +181,11 @@ teste = function()
 {
 	show_message("Teste");	
 }
-carregar_jogo = function()
+/*carregar_jogo = function()
 {
 	ini_open("save.sav");
 	
-}
+}*/
 
 ajuste_tela = function(_valor)
 {
@@ -208,7 +208,6 @@ ajuste_tela = function(_valor)
 
 menu_principal = [
 					["Iniciar", menu_acoes.roda_metodo, inicia_jogo],
-					["Carregar", menu_acoes.roda_metodo, carregar_jogo],
 					["Opções", menu_acoes.carrega_menu, menus_lista.opcoes],
 					["Sair", menu_acoes.roda_metodo, fecha_jogo]	
 				 ];
