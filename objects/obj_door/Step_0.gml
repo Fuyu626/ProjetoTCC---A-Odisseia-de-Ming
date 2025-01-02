@@ -12,3 +12,8 @@ if (player && interact)
 	tran.destino_x = destino_x;
 	tran.destino_y = destino_y;
 }
+
+if (room = Room1)
+{
+	visible = false;	
+} 

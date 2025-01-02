@@ -28,7 +28,7 @@
   "origin":9,
   "parent":{
     "name":"Sombra",
-    "path":"folders/Sprites/Enemies/Sombra.yy",
+    "path":"folders/Sprites/NPCs/Enemies/Sombra.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
