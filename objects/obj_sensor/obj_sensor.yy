@@ -43,5 +43,5 @@
     "name":"spr_sensor",
     "path":"sprites/spr_sensor/spr_sensor.yy",
   },
-  "visible":true,
+  "visible":false,
 }

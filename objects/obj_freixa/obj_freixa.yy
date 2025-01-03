@@ -1,19 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_inimigo_pai",
+  "%Name":"obj_freixa",
   "eventList":[],
   "managed":true,
-  "name":"obj_inimigo_pai",
+  "name":"obj_freixa",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Objects/NPCs/Enemies.yy",
+    "name":"NPCs",
+    "path":"folders/Objects/NPCs.yy",
   },
-  "parentObjectId":{
-    "name":"obj_entity",
-    "path":"objects/obj_entity/obj_entity.yy",
-  },
-  "persistent":true,
+  "parentObjectId":null,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_freixa",
+    "path":"sprites/spr_freixa/spr_freixa.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
