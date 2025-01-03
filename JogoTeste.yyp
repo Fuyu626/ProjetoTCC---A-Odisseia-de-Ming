@@ -95,6 +95,7 @@
     {"id":{"name":"scr_functions","path":"scripts/scr_functions/scr_functions.yy",},},
     {"id":{"name":"scr_ini","path":"scripts/scr_ini/scr_ini.yy",},},
     {"id":{"name":"scr_player_melee","path":"scripts/scr_player_melee/scr_player_melee.yy",},},
+    {"id":{"name":"sfx_rain","path":"sounds/sfx_rain/sfx_rain.yy",},},
     {"id":{"name":"spr_aura","path":"sprites/spr_aura/spr_aura.yy",},},
     {"id":{"name":"spr_bg_moon","path":"sprites/spr_bg_moon/spr_bg_moon.yy",},},
     {"id":{"name":"spr_bg_moonye","path":"sprites/spr_bg_moonye/spr_bg_moonye.yy",},},

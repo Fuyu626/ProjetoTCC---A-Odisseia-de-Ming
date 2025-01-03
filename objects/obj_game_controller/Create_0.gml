@@ -10,3 +10,5 @@ valor = 0;
 contador = 0;
 
 aura = 0;
+
+som_chuva = noone;
