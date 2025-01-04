@@ -11,4 +11,5 @@ contador = 0;
 
 aura = 0;
 
-som_chuva = noone;
+som_chuva1 = noone;
+som_chuva2 = noone;

@@ -15,7 +15,7 @@ pag = 0;
 draw_menu = function(_menu)
 {
 	//FONTE
-	draw_set_font(fnt_castlevania);
+	draw_set_font(fnt_castlevania_grande);
 
 	//ALINHANDO O TEXTO
 	define_align(0, 0);
@@ -112,6 +112,8 @@ control_menu = function(_menu)
 		{
 			menus_sel[pag] += _down - _up;	
 	
+			//SOM DO CLICKZINHO
+			audio_play_sound(sfx_ui_selection, 1, false);
 			//LIMITANDO O VETOR DE SEL
 			var _tam = array_length(_menu) - 1;
 			menus_sel[pag] = clamp(menus_sel[pag], 0, _tam);
@@ -133,6 +135,8 @@ control_menu = function(_menu)
 			menus[pag][_sel][3] += _right - _left;
 			//GARANTINDO NAO SAIR DO LIMITE
 			menus[pag][_sel][3] = clamp(menus[pag][_sel][3], 0, _limite);
+			
+			audio_play_sound(sfx_ui_selection, 1, false);
 		}
 		
 	}

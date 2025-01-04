@@ -26,7 +26,7 @@ dash_vel = 4;
 max_velh = 4;
 max_velv = 6;
 
-mostra_estado = true;
+mostra_estado = false;
 
 combo = 0;
 dano = noone;
