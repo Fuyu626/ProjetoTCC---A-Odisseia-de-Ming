@@ -42,6 +42,7 @@
   "ResourceOrderSettings":[
     {"name":"fnt_castlevania_pequena","order":2,"path":"fonts/fnt_castlevania_pequena/fnt_castlevania_pequena.yy",},
     {"name":"fnt_gameover","order":1,"path":"fonts/fnt_gameover/fnt_gameover.yy",},
+    {"name":"fnt_escritasdecifraveis","order":3,"path":"fonts/fnt_escritasdecifraveis/fnt_escritasdecifraveis.yy",},
     {"name":"obj_aura","order":2,"path":"objects/obj_aura/obj_aura.yy",},
     {"name":"obj_block","order":2,"path":"objects/obj_block/obj_block.yy",},
     {"name":"obj_campfire","order":1,"path":"objects/obj_campfire/obj_campfire.yy",},
@@ -59,6 +60,7 @@
     {"name":"obj_sensor","order":4,"path":"objects/obj_sensor/obj_sensor.yy",},
     {"name":"obj_spike","order":1,"path":"objects/obj_spike/obj_spike.yy",},
     {"name":"obj_transicao","order":5,"path":"objects/obj_transicao/obj_transicao.yy",},
+    {"name":"obj_tutorial","order":11,"path":"objects/obj_tutorial/obj_tutorial.yy",},
     {"name":"rm_init","order":1,"path":"rooms/rm_init/rm_init.yy",},
     {"name":"rm_menu","order":7,"path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"Room0","order":3,"path":"rooms/Room0/Room0.yy",},
@@ -80,6 +82,7 @@
     {"name":"spr_health_bar_black","order":2,"path":"sprites/spr_health_bar_black/spr_health_bar_black.yy",},
     {"name":"spr_health_bar_full","order":1,"path":"sprites/spr_health_bar_full/spr_health_bar_full.yy",},
     {"name":"spr_lighting","order":4,"path":"sprites/spr_lighting/spr_lighting.yy",},
+    {"name":"spr_luaestrelas","order":2,"path":"sprites/spr_luaestrelas/spr_luaestrelas.yy",},
     {"name":"spr_perfil_photo","order":3,"path":"sprites/spr_perfil_photo/spr_perfil_photo.yy",},
     {"name":"spr_player_atk02","order":1,"path":"sprites/spr_player_atk02/spr_player_atk02.yy",},
     {"name":"spr_player_atk03","order":2,"path":"sprites/spr_player_atk03/spr_player_atk03.yy",},
@@ -96,7 +99,6 @@
     {"name":"spr_sombra_walk","order":3,"path":"sprites/spr_sombra_walk/spr_sombra_walk.yy",},
     {"name":"spr_spike","order":3,"path":"sprites/spr_spike/spr_spike.yy",},
     {"name":"spr_title_menu","order":1,"path":"sprites/spr_title_menu/spr_title_menu.yy",},
-    {"name":"spr_luaestrelas","order":2,"path":"sprites/spr_luaestrelas/spr_luaestrelas.yy",},
     {"name":"tl_tile02","order":1,"path":"tilesets/tl_tile02/tl_tile02.yy",},
   ],
 }

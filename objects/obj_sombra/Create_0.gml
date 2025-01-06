@@ -13,7 +13,7 @@ vida_atual = vida_max;
 max_velh = 1;
 max_velv = 1;
 
-mostra_estado = true;
+mostra_estado = false;
 
 timer_estado = 0;
 
