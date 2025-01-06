@@ -1,27 +1,27 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_bg_moon",
+  "%Name":"spr_luaestrelas",
   "bboxMode":0,
-  "bbox_bottom":76,
-  "bbox_left":2,
-  "bbox_right":79,
-  "bbox_top":0,
+  "bbox_bottom":488,
+  "bbox_left":260,
+  "bbox_right":694,
+  "bbox_top":12,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"afbd27a8-ecf0-474c-82d6-1430c1606f20","name":"afbd27a8-ecf0-474c-82d6-1430c1606f20","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"c63cc43f-70ef-416c-9449-d62c7a6bd3ab","name":"c63cc43f-70ef-416c-9449-d62c7a6bd3ab","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":80,
+  "height":640,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"29bb4164-7d23-4e29-ab01-7bad5045ff38","blendMode":0,"displayName":"default","isLocked":false,"name":"29bb4164-7d23-4e29-ab01-7bad5045ff38","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"7aefa843-64fb-4464-aef1-09bef87ff2d0","blendMode":0,"displayName":"default","isLocked":false,"name":"7aefa843-64fb-4464-aef1-09bef87ff2d0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_bg_moon",
+  "name":"spr_luaestrelas",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"spr_bg_moon",
+    "%Name":"spr_luaestrelas",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_bg_moon",
+    "name":"spr_luaestrelas",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"afbd27a8-ecf0-474c-82d6-1430c1606f20","path":"sprites/spr_bg_moon/spr_bg_moon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0b84b1ff-5c5b-4e3a-bb9b-015e9bd54489","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c63cc43f-70ef-416c-9449-d62c7a6bd3ab","path":"sprites/spr_luaestrelas/spr_luaestrelas.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2070b990-da03-4274-afdc-e1e2f53d1e66","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":80,
+  "width":960,
 }
