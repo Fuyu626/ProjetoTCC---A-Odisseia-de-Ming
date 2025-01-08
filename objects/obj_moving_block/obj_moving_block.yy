@@ -1,17 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_block",
+  "%Name":"obj_moving_block",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_block",
+  "name":"obj_moving_block",
   "overriddenProperties":[],
   "parent":{
     "name":"Environment",
     "path":"folders/Objects/Environment.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_block",
+    "path":"objects/obj_block/obj_block.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

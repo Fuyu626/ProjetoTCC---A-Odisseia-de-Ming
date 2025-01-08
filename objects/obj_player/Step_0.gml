@@ -187,7 +187,7 @@ switch(estado)
 			aplica_gravidade();
 			
 			//DIMINUI O VALOR DE MID_VELH
-			mid_velh = lerp(mid_velh, 0, 0.05);
+			mid_velh = lerp(mid_velh, 0, 0.1);
 		}
 		break;
 	}
@@ -367,21 +367,7 @@ switch(estado)
 		break;
 	}
 	#endregion
-	
-	#region spike
-	case "dead_spike":
-	{
-		velh = 0;
-		velv = 0;
-		
-		if (sprite_index != spr_player_dead) 
-	    {
-	        sprite_index = spr_player_dead;
-	        image_index = 0;
-	    }
-		estado = "dead";
-	}
-	#endregion
+
 	
 	#region morte
 	case "dead":

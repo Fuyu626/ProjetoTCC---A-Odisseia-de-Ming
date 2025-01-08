@@ -6,8 +6,8 @@
   "name":"obj_collisionledge",
   "overriddenProperties":[],
   "parent":{
-    "name":"Game System",
-    "path":"folders/Objects/Game System.yy",
+    "name":"Environment",
+    "path":"folders/Objects/Environment.yy",
   },
   "parentObjectId":null,
   "persistent":false,
