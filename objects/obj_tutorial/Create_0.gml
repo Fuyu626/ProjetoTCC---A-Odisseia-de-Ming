@@ -3,7 +3,9 @@
 
 texto = [
 			"Pressione A e S para caminhar.",
-			"Pressione W para pular"
+			"Pressione W para pular",
+			"Pressione F para interagir",
+			"Pressione J para atacar",
 		];
 
 index = 0;

@@ -7,7 +7,7 @@ var gui_altura = display_get_gui_height();
 var xx = gui_largura / 2;
 var yy = 0;
 var largura_ret = gui_largura / 2;
-var altura_ret = gui_altura / 3;
+var altura_ret = gui_altura / 4;
 var esp_borda = 0;
 
 //BORDA DO RETANGULO
@@ -17,6 +17,13 @@ draw_rectangle(xx - largura_ret / 2 - esp_borda, yy - esp_borda, xx + largura_re
 //RETANGULO DO DIALOGO
 draw_set_color(c_black);
 draw_rectangle(xx - largura_ret / 2, yy, xx + largura_ret / 2, yy + altura_ret, false);
+
+//SPRITES
+if (index < array_length(sprite) && sprite[index] != noone) {
+    var sprite_x = xx - largura_ret / 3 - sprite_get_width(sprite[index]) - 10; 
+    var sprite_y = yy + altura_ret / 3 - sprite_get_height(sprite[index]) / 2;  
+    draw_sprite(sprite[index], 0, sprite_x, sprite_y);
+}
 
 //MUCHO TEXTO
 draw_set_font(fnt_castlevania_pequena);

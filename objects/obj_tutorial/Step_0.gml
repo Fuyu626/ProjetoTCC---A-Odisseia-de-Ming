@@ -14,12 +14,26 @@ if (mostra_texto)
 	{
 		if (keyboard_check_pressed(ord("W")))
 		{
+			avanca_tecla = true;
+		}
+	}
+	if (index == 2)
+	{
+		if (keyboard_check_pressed(ord("F")))
+		{
+			avanca_tecla = true;
+		}
+	}
+	if (index == 3)
+	{
+		if (keyboard_check_pressed(ord("J")))
+		{
 			mostra_texto = false;
 			instance_destroy();
 		}
 	}
 	
-	if (avanca_tecla && index == 0)
+	if (avanca_tecla && index >= 0)
 	{
 		index++;
 		index_letra = 1;

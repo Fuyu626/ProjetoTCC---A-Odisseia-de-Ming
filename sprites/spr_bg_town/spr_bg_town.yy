@@ -3,8 +3,8 @@
   "%Name":"spr_bg_town",
   "bboxMode":0,
   "bbox_bottom":639,
-  "bbox_left":73,
-  "bbox_right":1777,
+  "bbox_left":61,
+  "bbox_right":1799,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1778,
+  "width":1800,
 }
