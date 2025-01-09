@@ -5,4 +5,4 @@
 event_inherited();
 
 //APARENCIA DA DISTANCIA
-//*draw_line(x, y - sprite_height/2, x + (distancia * xscale), y - sprite_height/2);
+draw_line(x, y - sprite_height/2, x + (distancia * xscale), y - sprite_height/2);

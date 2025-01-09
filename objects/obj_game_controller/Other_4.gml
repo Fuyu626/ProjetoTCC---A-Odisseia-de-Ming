@@ -1,6 +1,26 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+//MUSICA PRINCIPAL
+if (room == rm_menu)
+{
+	som_musga = audio_play_sound(snd_musga, 1, true);
+}
+else if (som_musga != noone)
+{
+	audio_stop_sound(som_musga);
+	som_musga = noone;
+}
+
+if (room == Room2)
+{
+	som_musga2 = audio_play_sound(snd_musga, 1, true);
+}
+else if (som_musga2 != noone)
+{
+	audio_stop_sound(som_musga2);
+	som_musga2 = noone;
+}
 //SOM DE CHUVA NA ROOM0
 if (room == Room0)
 {

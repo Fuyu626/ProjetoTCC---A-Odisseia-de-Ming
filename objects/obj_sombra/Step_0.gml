@@ -12,9 +12,21 @@ if (point_distance(x, y, obj_player.x, obj_player.y) <= detection_range)
 		visible = true;
 		image_yscale += 0.1;
 	    estado = "idle";
-	}	
- }
+	}
+	
+}
 
+if (point_distance(x, y, obj_player.x, obj_player.y) <= distancia) 
+{
+	if (obj_player.x > x)
+	{
+		xscale = 1;	
+	}
+	else
+	{
+		xscale = -1;	
+	}
+}
 
 if (!chao)
 {

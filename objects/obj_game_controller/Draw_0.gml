@@ -62,3 +62,8 @@ if (game_over)
 	
 }
 
+if (room = rm_menu)
+{
+	draw_sprite(spr_tecla, floor(image_index), 1, 190)
+	draw_sprite(spr_tecla2, 0, 52, 190)
+}

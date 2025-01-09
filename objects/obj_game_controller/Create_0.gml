@@ -13,3 +13,8 @@ aura = 0;
 
 som_chuva1 = noone;
 som_chuva2 = noone;
+som_musga = noone;
+som_musga2 = noone;
+
+image_index = 0;
+image_speed = 0.005;

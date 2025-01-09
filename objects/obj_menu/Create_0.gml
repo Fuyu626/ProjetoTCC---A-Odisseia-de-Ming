@@ -174,7 +174,7 @@ control_menu = function(_menu)
 
 inicia_jogo = function()
 {
-	room_goto(Room2);
+	room_goto(Room0);
 }
 
 fecha_jogo = function()

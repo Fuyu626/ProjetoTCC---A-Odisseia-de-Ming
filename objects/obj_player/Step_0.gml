@@ -12,7 +12,7 @@ attack = keyboard_check_pressed(ord("J"));
 dash = keyboard_check_pressed(vk_shift);
 
 
-if (ataque_buff > 0) ataque_buff -= 0.1;
+if (ataque_buff > 0) ataque_buff -= 0.09;
 
 
 
@@ -218,7 +218,7 @@ switch(estado)
 		//CRIANDO O OBJETO DE DANO
 		if (image_index >= 2 && dano == noone && posso)
 		{
-			dano = instance_create_layer(x + sprite_width/2, y - sprite_height/2, layer, obj_damage);
+			dano = instance_create_layer(x + 16, y - sprite_height/2, layer, obj_damage);
 			dano.dano = ataque * ataque_mult;
 			dano.pai = id;
 			posso = false;
@@ -373,6 +373,7 @@ switch(estado)
 	case "dead":
 	{
 		//CHECANDO SE O CONTROLLER EXISTE
+		
 		if (instance_exists(obj_game_controller))
 		{
 			with(obj_game_controller)

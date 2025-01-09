@@ -9,8 +9,8 @@
   "name":"obj_campfire",
   "overriddenProperties":[],
   "parent":{
-    "name":"checkpoint",
-    "path":"folders/Objects/checkpoint.yy",
+    "name":"Game System",
+    "path":"folders/Objects/Game System.yy",
   },
   "parentObjectId":null,
   "persistent":false,

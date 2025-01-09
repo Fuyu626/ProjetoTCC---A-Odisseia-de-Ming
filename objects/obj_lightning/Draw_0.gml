@@ -30,6 +30,14 @@ else //SE A SURFACE EXISTE
 		var _valor = random_range(-.1, .1);
 		draw_sprite_ext(spr_lighting, 0, x, y - 20, 1.5 + _valor, 1.5 + _valor, 0, c_aqua, .7); 		
 	}
+	with (obj_latern)
+	{
+		if (image_index = 1)
+		{
+			var _valor = random_range(-.1, .1);
+			draw_sprite_ext(spr_lighting, 0, x + 12, y - 30, 2 + _valor, 2 + _valor, 0, c_yellow, .7);
+		}
+	}
 	
 	//RESET
 	gpu_set_blendmode(bm_normal);

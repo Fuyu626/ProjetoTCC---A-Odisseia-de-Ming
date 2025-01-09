@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_block",
-    "path":"sprites/spr_block/spr_block.yy",
+    "name":"spr_plataforma_movel",
+    "path":"sprites/spr_plataforma_movel/spr_plataforma_movel.yy",
   },
   "spriteMaskId":null,
   "visible":true,

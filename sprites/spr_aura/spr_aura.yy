@@ -33,7 +33,7 @@
   ],
   "name":"spr_aura",
   "nineSlice":null,
-  "origin":9,
+  "origin":7,
   "parent":{
     "name":"ChallengeLevel",
     "path":"folders/Sprites/Environment/ChallengeLevel.yy",
@@ -116,7 +116,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":16,
-    "yorigin":26,
+    "yorigin":32,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

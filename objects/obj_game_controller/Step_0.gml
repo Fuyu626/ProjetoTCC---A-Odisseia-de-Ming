@@ -21,4 +21,11 @@ else
 }
 */
 
+image_index += image_speed;
+
+if (image_index >= sprite_get_number(spr_tecla)) 
+{
+    image_index = 0;
+}
+
 if (keyboard_check(vk_escape)) game_restart(); 
