@@ -35,12 +35,6 @@ posso = true;
 ataque_mult = 1;
 ataque_buff = room_speed;
 
-//CHECKPOINT SAVE
-if (global.check_y != 0)
-{
-	x = global.check_x;
-	y = global.check_y;
-}
 
 //GRAVIDADE
 aplica_gravidade = function()

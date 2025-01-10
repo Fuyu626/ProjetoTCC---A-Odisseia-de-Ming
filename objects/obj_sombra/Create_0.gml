@@ -4,8 +4,9 @@
 // Inherit the parent event
 event_inherited();
 
-visible = false;
-image_yscale = 0.1;
+//visible = false;
+//image_yscale = 0.1;
+
 
 vida_max = 5;
 vida_atual = vida_max;
@@ -18,11 +19,11 @@ mostra_estado = false;
 
 timer_estado = 0;
 
-distancia = 120;
+distancia = 80;
 
 dano = noone;
 ataque = 1;
 posso = true;
 estado = "idle";
 
-detection_range = 30;
+detection_range = 150;

@@ -10,7 +10,7 @@ var distancia = argument1;
 var xscale = argument2;
 
 //DETECTANDO O PLAYER
-var player = collision_line(x, y - sprite_height/2, x + distancia * xscale, y - sprite_height/2, outro, 0, 1)
+var player = collision_line(x, y, x + distancia * xscale, y - sprite_height/2, outro, 0, 1)
 
 //DETECTA O PLAYER
 if(player)

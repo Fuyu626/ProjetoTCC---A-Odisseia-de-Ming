@@ -10,7 +10,7 @@ if (som_chuva1 != noone)
 //SOM DE CHUVA DA ROOM 1
 if (som_chuva2 != noone)
 {
-	audio_stop_sound(som_chuv2a);
+	audio_stop_sound(som_chuva2);
 	som_chuva2 = noone;
 }
 

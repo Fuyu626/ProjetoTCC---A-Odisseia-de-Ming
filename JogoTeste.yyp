@@ -98,7 +98,6 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"scr_functions","path":"scripts/scr_functions/scr_functions.yy",},},
-    {"id":{"name":"scr_global","path":"scripts/scr_global/scr_global.yy",},},
     {"id":{"name":"scr_ini","path":"scripts/scr_ini/scr_ini.yy",},},
     {"id":{"name":"scr_player_melee","path":"scripts/scr_player_melee/scr_player_melee.yy",},},
     {"id":{"name":"sfx_interiorrain","path":"sounds/sfx_interiorrain/sfx_interiorrain.yy",},},

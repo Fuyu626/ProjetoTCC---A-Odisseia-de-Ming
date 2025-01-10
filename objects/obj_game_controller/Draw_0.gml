@@ -53,7 +53,7 @@ if (game_over)
 		draw_text(meio_w, meio_h, "G A M E - O V E R");	
 		draw_set_font(-1);
 		
-		draw_text(meio_w, meio_h + 50, "Clique ESC para reiniciar");
+		draw_text(meio_w, meio_h + 50, "Clique SPACE para reiniciar");
 		draw_set_valign(-1);
 		draw_set_halign(-1);
 	

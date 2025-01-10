@@ -28,4 +28,4 @@ if (image_index >= sprite_get_number(spr_tecla))
     image_index = 0;
 }
 
-if (keyboard_check(vk_escape)) game_restart(); 
+if (keyboard_check(vk_space)) game_restart(); 

@@ -9,5 +9,3 @@ if (room = Room2 && aura)
 	draw_set_font(-1);
 	draw_set_color(-1);
 }
-
-
