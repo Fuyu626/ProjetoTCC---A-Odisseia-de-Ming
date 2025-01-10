@@ -4,8 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
-//visible = false;
-//image_yscale = 0.1;
+visible = false;
+image_yscale = 0.1;
 
 
 vida_max = 5;

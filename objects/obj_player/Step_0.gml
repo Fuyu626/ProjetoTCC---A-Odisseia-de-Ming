@@ -15,7 +15,6 @@ dash = keyboard_check_pressed(vk_shift);
 if (ataque_buff > 0) ataque_buff -= 0.09;
 
 
-
 //MOVIMENTAÇÃO//
 velh = (right - left) * max_velh * global.vel_mult;
 
@@ -379,7 +378,7 @@ switch(estado)
 			with(obj_game_controller)
 			{
 				game_over = true;
-			}	
+			}
 		}
 		
 		velh = 0;
@@ -389,10 +388,11 @@ switch(estado)
 			sprite_index =	spr_player_dead;
 		}
 		if (image_index >= image_number-1)
-			{
-				image_index = image_number-1; 
-				image_speed = 0;
-			}
+		{
+			image_index = image_number-1; 
+			image_speed = 0;
+		}
+
 		
 		break;
 	}

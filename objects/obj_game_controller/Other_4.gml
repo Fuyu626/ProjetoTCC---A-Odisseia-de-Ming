@@ -15,12 +15,14 @@ else if (som_musga != noone)
 if (room == Room2)
 {
 	som_musga2 = audio_play_sound(snd_musga, 1, true);
+	
 }
 else if (som_musga2 != noone)
 {
 	audio_stop_sound(som_musga2);
 	som_musga2 = noone;
 }
+
 //SOM DE CHUVA NA ROOM0
 if (room == Room0)
 {

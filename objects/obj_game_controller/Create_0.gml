@@ -10,6 +10,7 @@ valor = 0;
 contador = 0;
 
 aura = 0;
+total_aura = 6;
 
 som_chuva1 = noone;
 som_chuva2 = noone;
@@ -18,3 +19,7 @@ som_musga2 = noone;
 
 image_index = 0;
 image_speed = 0.005;
+
+
+
+

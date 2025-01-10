@@ -59,7 +59,7 @@ if (game_over)
 	
 		draw_set_alpha(-1);
 	}
-	
+
 }
 
 if (room = rm_menu)
