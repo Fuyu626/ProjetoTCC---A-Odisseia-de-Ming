@@ -13,4 +13,20 @@ if (som_chuva2 != noone)
 	audio_stop_sound(som_chuva2);
 	som_chuva2 = noone;
 }
+if (som_musga != noone)
+{
+	audio_stop_sound(som_musga);
+	som_musga = noone;
+}
+if (som_musga2 != noone)
+{
+	audio_stop_sound(som_musga2);
+	som_musga2 = noone;
+}
+if (som_musga3 != noone)
+{
+	audio_stop_sound(som_musga3);
+	som_musga3 = noone;
+}
+
 

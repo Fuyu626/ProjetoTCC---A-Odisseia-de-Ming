@@ -11,4 +11,3 @@ if (keyboard_check_pressed(vk_escape)) {
     game_end();
 }
 
-audio_play_sound(snd_musga, 1, false);

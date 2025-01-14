@@ -21,5 +21,5 @@
   "sampleRate":48000,
   "soundFile":"snd_musga.mp3",
   "type":0,
-  "volume":0.13,
+  "volume":0.88,
 }

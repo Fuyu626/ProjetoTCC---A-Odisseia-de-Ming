@@ -18,8 +18,7 @@ texto = [
 		 "Pressione A ou D para mover.", 
          "Pressione W para pular.", 
          "Pressione F para interagir.", 
-		 "Pressione SHIFT para dar um dash.", 
-		 "Pressione E para dar mudar o dialogo.", 
+		 "Pressione SHIFT para dar um dash.",  
          "Pressione J para atacar."
 		 ];
 

@@ -28,14 +28,7 @@ if (mostra_texto)
             avanca_tecla = true;
         }
     }
-	if (index == 4)
-    {
-        if (keyboard_check_pressed(ord("E")))
-        {
-            avanca_tecla = true;
-        }
-    }
-    if (index == 5)
+    if (index == 4)
     {
         if (keyboard_check_pressed(ord("J")))
         {

@@ -23,6 +23,17 @@ else if (som_musga2 != noone)
 	som_musga2 = noone;
 }
 
+if (room == rm_credito)
+{
+	som_musga3 = audio_play_sound(snd_musga, 1, true);
+	
+}
+else if (som_musga3 != noone)
+{
+	audio_stop_sound(som_musga3);
+	som_musga3 = noone;
+}
+
 //SOM DE CHUVA NA ROOM0
 if (room == Room0)
 {

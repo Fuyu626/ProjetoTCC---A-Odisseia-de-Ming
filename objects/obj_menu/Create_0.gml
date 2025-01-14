@@ -100,7 +100,7 @@ control_menu = function(_menu)
 	_up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"));
 	_down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"));
 	_avanca = keyboard_check_released(vk_enter);
-	_recua = keyboard_check_released(vk_escape);
+	_recua = keyboard_check_released(vk_alt);
 	_left = keyboard_check_pressed(vk_left) || keyboard_check_pressed(ord("A"));
 	_right = keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord("D"));
 
@@ -174,7 +174,7 @@ control_menu = function(_menu)
 
 inicia_jogo = function()
 {
-	room_goto(Room0);
+	room_goto(Room2);
 }
 
 fecha_jogo = function()

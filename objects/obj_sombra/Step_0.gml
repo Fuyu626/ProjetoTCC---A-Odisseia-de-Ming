@@ -5,7 +5,7 @@ var chao = place_meeting(x, y + 1, obj_block);
 
 
 //SURGIR DO CHÃO
-if (point_distance(x, y, obj_player.x, obj_player.y) <= detection_range) 
+if (point_distance(x, y, obj_player.x, obj_player.y) <= distancia) 
 {
 	if (image_yscale < 1)
 	{

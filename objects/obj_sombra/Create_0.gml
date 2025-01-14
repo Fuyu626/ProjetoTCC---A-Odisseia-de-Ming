@@ -19,7 +19,7 @@ mostra_estado = false;
 
 timer_estado = 0;
 
-distancia = 80;
+distancia = 60;
 
 dano = noone;
 ataque = 1;

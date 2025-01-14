@@ -44,3 +44,9 @@ var texto_x = xx;
 var texto_y = (altura_ret / 3) - (string_height(texto[index]));
 draw_text(texto_x, texto_y, texto_atual);
 draw_set_halign(-1);
+
+draw_set_font(fnt_escritasdecifraveis_pequena); 
+draw_set_color(c_white);
+var instrucao_x = xx + 120;
+var instrucao_y = yy + altura_ret - 20; 
+draw_text(instrucao_x, instrucao_y, "Pressione 'E' para passar o dialogo");
